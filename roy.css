@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/646f0d788cca12ea3bf67e23/releases/646f0db13fde5fed19297b20/img/wp7620711-max-verstappen-2021-wallpapers-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 20px;
+  /* width: calc(100% - 40px); */
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.topLeft {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topLeft p {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.red-bull {
+  height: 45px;
+}
+
+.topRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tag-hever {
+  height: 45px;
+}
+
+.puma {
+  height: 45px;
+}
+
+.navBar {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 10px 20px;
+}
+
+.navBar .list {
+  color: white;
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  /* padding-right: 20px; */
+}
+
+.list li {
+  font-size: large;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rectangle {
+  border: white 1px solid;
+  border-radius: 20px;
+  height: 115px;
+  /* left: 53px;
+    position: absolute;
+    top: 143px; */
+  width: 250px;
+  display: flex;
+  padding: 0 10px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.rectangle p {
+  font-size: 30px;
+}
+
+.rectangle img {
+  height: 70px;
+}
+
+.rectangle2 {
+  border: white 1px solid;
+  border-radius: 20px;
+  height: 125px;
+  /* left: 53px;
+  position: absolute;
+  top: 143px; */
+  width: 350px;
+  display: flex;
+  padding: 0 10px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.rectangle2 p {
+  font-size: 25px;
+}
+
+.rectangle2 img {
+  height: 90px;
+}
+
+.liveStream {
+  border: white 1px solid;
+  border-radius: 20px;
+  width: 350px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.liveStream p {
+  font-size: 30px;
+}
+
+.red-bull2 {
+  width: 280px;
+}
